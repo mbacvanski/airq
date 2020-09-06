@@ -1,7 +1,7 @@
 package main
 
 import (
-	"airquality/database"
+	"airquality/database/influx"
 	"fmt"
 	"github.com/btubbs/datetime"
 	"log"
@@ -13,7 +13,7 @@ import (
 
 // Handles incoming data from sensors, writes it into the database.
 // Will fail if any value is missing, corrupted, or not parseable.
-func dataHandler(db *database.DB) http.Handler {
+func dataHandler(db *influx.DB) http.Handler {
 	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 		if r.Method != "POST" {
 			http.Error(w, "Method not supported", http.StatusMethodNotAllowed)
@@ -74,19 +74,13 @@ func dataHandler(db *database.DB) http.Handler {
 			}
 		}
 
-		if err := db.WriteDataEntry(timestamp, stringData["sensorName"], stringData["sensorId"], floatData); err != nil {
-			http.Error(w, "Could not write data", http.StatusInternalServerError)
-			log.Println("Failed writing data to database: " + err.Error())
-			return
-		}
+		// Write data asynchronously
+		db.WriteData(timestamp, stringData["sensorName"], stringData["sensorId"], floatData)
 	})
 }
 
 func main() {
-	db, err := database.NewDB()
-	if err != nil {
-		panic("Could not connect to database: " + err.Error())
-	}
+	db := influx.NewDB("http://localhost:8086", "token", "airquality", "airquality")
 
 	http.Handle("/data", dataHandler(db))
 

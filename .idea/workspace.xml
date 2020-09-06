@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a1e0ecd6-eb10-495c-854c-2d4506d7f6c4" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go Application" />
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="$USER_HOME$/.go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$/Code/AirQuality/server/airquality" />
+  </component>
+  <component name="ProjectId" id="1giLR8q1bnDnCUiqNz6C4MkmKVQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="GO_FMT" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$USER_HOME$/Code/AirQuality/server" />
+      <recent name="$PROJECT_DIR$/database" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Build.go build server.go">
+    <configuration name="go build airquality" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="airquality" />
+      <working_directory value="$PROJECT_DIR$" />
+      <envs>
+        <env name="port" value="8008" />
+      </envs>
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
+        </ENTRIES>
+      </EXTENSION>
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/server.go" />
+      <package value="airquality" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build server.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="airquality" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/server.go" />
+      <package value="airquality" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Go Build.go build airquality" />
+      <item itemvalue="Go Build.go build server.go" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build airquality" />
+        <item itemvalue="Go Build.go build server.go" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
+    <MESSAGE value="Connection to Mongo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Connection to Mongo" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="83" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598637811853">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="83" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1598637811853" />
+    <state x="297" y="24" key="CommitChangelistDialog2" timestamp="1598642540288">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="297" y="24" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1598642540288" />
+    <state x="431" y="303" width="635" height="280" key="Github.ShareDialog" timestamp="1598595007398">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="431" y="303" width="635" height="280" key="Github.ShareDialog/0.0.1440.900@0.0.1440.900" timestamp="1598595007398" />
+    <state x="559" y="160" key="Github.UntrackedFilesDialog" timestamp="1598595017330">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="559" y="160" key="Github.UntrackedFilesDialog/0.0.1440.900@0.0.1440.900" timestamp="1598595017330" />
+    <state width="1398" height="238" key="GridCell.Tab.0.bottom" timestamp="1598816715595">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="238" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1598816715595" />
+    <state width="1398" height="238" key="GridCell.Tab.0.center" timestamp="1598816715591">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="238" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1598816715591" />
+    <state width="1398" height="238" key="GridCell.Tab.0.left" timestamp="1598816715588">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="238" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1598816715588" />
+    <state width="1398" height="238" key="GridCell.Tab.0.right" timestamp="1598816715594">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="238" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1598816715594" />
+    <state x="221" y="89" key="SettingsEditor" timestamp="1598828704681">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1598828704681" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1598642541745">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1598642541745" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1598634121700">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1598634121700" />
+  </component>
+</project>

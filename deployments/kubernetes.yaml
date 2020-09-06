@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: airquality
+  labels:
+    app: airquality
+spec:
+  selector:
+    matchLabels:
+      app: airquality
+  template:
+    metadata:
+      labels:
+        app: airquality
+    spec:
+      containers:
+        - name: airquality
+          image: airquality-image
+          ports:
+            - containerPort: 8080
